@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEM Naming Example</title>
+    
+    <!-- Internal CSS -->
+    <style>
+        /* Block: paragraph-section */
+        .paragraph-section__intro {
+            font-size: 18px;
+            color: darkblue;
+            margin-bottom: 10px;
+        }
+
+        .paragraph-section__description {
+            font-size: 16px;
+            color: darkgreen;
+            background-color: #f0f8ff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .paragraph-section__note {
+            font-size: 14px;
+            color: gray;
+            font-style: italic;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>BEM Naming Convention Example</h1>
+    <p class="paragraph-section__intro">This is an introductory paragraph styled with the BEM naming convention.</p>
+    <p class="paragraph-section__description">This paragraph provides a detailed description. It has a background and padding for emphasis.</p>
+    <p class="paragraph-section__note">Note: This is a footnote styled to appear distinct from the other paragraphs.</p>
+
+    <!-- Explanation -->
+    <!-- The block is named 'paragraph-section', representing the overall context for these paragraphs. -->
+    <!-- Modifiers or elements are represented with '__' to denote their relationship to the block. -->
+    <!-- Example: 'paragraph-section__intro' is an introductory paragraph within the block 'paragraph-section'. -->
+</body>
+</html>
